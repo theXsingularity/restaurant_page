@@ -1,30 +1,27 @@
 const home = () => {
     console.log('connected to home.js');
 
-    const container = document.createElement('div')
-    container.classList.add('container')
+    const headerContainer = document.createElement('div');
+    headerContainer.classList.add('headerContainer')
 
-    const header = document.createElement('div')
-    header.classList.add('header')
-    header.innerHTML = "this is the header"
+    const headerBox1 = document.createElement('div');
+    headerBox1.classList.add('headerBox1')
+    headerBox1.innerHTML = 'Home';   
 
-    const middle = document.createElement('div')
-    middle.classList.add('middle')
-    middle.innerHTML = "this is the middle part"
-    
-    const footer = document.createElement('div')
-    footer.classList.add('footer')
-    footer.innerHTML = "this is the footer"
+    const headerBox2 = document.createElement('div');
+    headerBox2.classList.add('headerBox2')
+    headerBox2.innerHTML = 'Menu';   
 
-    container.appendChild(header)
-    container.appendChild(middle)
-    container.appendChild(footer)
-
-    console.log(container)
+    const headerBox3 = document.createElement('div');
+    headerBox3.classList.add('headerBox3')
+    headerBox3.innerHTML = 'About';   
 
 
+    headerContainer.appendChild(headerBox1)
+    headerContainer.appendChild(headerBox2)
+    headerContainer.appendChild(headerBox3)
 
-    return container
+    return headerContainer
 }
 
 export { home }

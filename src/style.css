@@ -4,11 +4,82 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 
-.container {
+#content {
     background-color: red;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
 }
 
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+
+.headerBox1 {
+  background-color: brown;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 10%;
+}
+
+.title{
+  background-color: green;
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  background-color: tan;
+  border: solid 10px black;
+}
+
+.midTopContainer{
+  display: flex;
+}
+
+.midTopLeft {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  border: solid 5px grey;
+}
+
+.midTopRight {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border: solid 5px grey;
+}
+
+
+.midBottomContainer {
+  
+  height: 50px;
+  background: blue;
+  border: solid 5px rebeccapurple;
+  
+}
+
+.menu {
+  flex-grow: 1;
+  width: 400px;
+  background-color: teal;
+  border: solid 5px grey;
+}
+
+
+.footer{
+  background-color: yellow;
+}
 
