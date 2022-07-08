@@ -2,7 +2,7 @@ const menu = () => {
     console.log('connected to menu.js');
 
     const menuContainer = document.createElement('div')
-    menuContainer.classList.add('container')
+    menuContainer.classList.add('menuContainer')
 
     const breakfast = document.createElement('div');
     breakfast.classList.add('breakfast');

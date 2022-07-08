@@ -1,3 +1,5 @@
+/* import { menu } from "./menu";
+
 const home = () => {
     console.log('connected to home.js');
 
@@ -11,11 +13,14 @@ const home = () => {
     const headerBox2 = document.createElement('div');
     headerBox2.classList.add('headerBox2')
     headerBox2.innerHTML = 'Menu';   
+    headerBox2.addEventListener('click', function() {
+        
+    })
+
 
     const headerBox3 = document.createElement('div');
     headerBox3.classList.add('headerBox3')
     headerBox3.innerHTML = 'About';   
-
 
     headerContainer.appendChild(headerBox1)
     headerContainer.appendChild(headerBox2)
@@ -26,3 +31,4 @@ const home = () => {
 
 export { home }
 
+ */
