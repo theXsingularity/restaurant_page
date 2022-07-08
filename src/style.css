@@ -10,6 +10,7 @@ html, body {
 #content {
     background-color: red;
     display: flex;
+    align-items: center;
     flex-direction: column;
     height: 100%;
     
@@ -41,6 +42,10 @@ html, body {
   margin-bottom: 50px;
 }
 
+.box {
+  border: none;
+  background: none;
+}
 
 
 .mid{
@@ -85,16 +90,16 @@ html, body {
 
 
 /* ----- menu page ----- */
-.menu {
-  flex-grow: 1;
-  width: 400px;
-  background-color: teal;
-  border: solid 5px grey;
-}
 .menuContainer {
+  width: max(405px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  padding: 5%;
+}
+
+.menu {
+  width: 400px;
+  height: 200px;
+  background-color: teal;
+  border: solid 5px grey;
 }
