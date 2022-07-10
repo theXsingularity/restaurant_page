@@ -115,7 +115,7 @@ html, body {
 .aboutBottomContainer {
   height: 100%;
   width: 500px;
-  background: blue;
+  background: red;
   border: solid 5px rebeccapurple;
   
 }
