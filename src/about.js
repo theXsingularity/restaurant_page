@@ -6,44 +6,42 @@ const about = () => {
 
     const title = document.createElement('div');
     title.classList.add('title');
-    title.innerHTML = 'This is a Restaurant';   
+    title.innerHTML = 'OUR PLACE';   
 
-    const mid = document.createElement('div');
-    mid.classList.add('mid');
+    const aboutContentContainer = document.createElement('div');
+    aboutContentContainer.classList.add('aboutContentContainer');
 
-    const midTopContainer = document.createElement('div');
-    midTopContainer.classList.add('midTopContainer');
+    const aboutTopContainer = document.createElement('div');
+    aboutTopContainer.classList.add('aboutTopContainer');
 
-    const midTopLeft = document.createElement('div');
-    midTopLeft.classList.add('midTopLeft');
-    midTopLeft.innerHTML = 'Picture 1';
+    const aboutTopLeft = document.createElement('div');
+    aboutTopLeft.classList.add('aboutTopLeft');
+    aboutTopLeft.innerHTML = 'Picture 1';
 
-    const midTopRight = document.createElement('div');
-    midTopRight.classList.add('midTopRight');
-    midTopRight.innerHTML = 'Picture 2';
+    const aboutTopRight = document.createElement('div');
+    aboutTopRight.classList.add('aboutTopRight');
+    aboutTopRight.innerHTML = 'Picture 2';
 
-    const midBottomContainer = document.createElement('div');
-    midBottomContainer.classList.add('midBottomContainer');
+    const aboutBottomContainer = document.createElement('div');
+    aboutBottomContainer.classList.add('aboutBottomContainer');
 
 
     const bottomContent = document.createElement('div');
     bottomContent.classList.add('bottomContent');
-    bottomContent.innerHTML = 'HERE IS ABOUT US';
+    bottomContent.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 
-    const footer = document.createElement('div');
-    footer.classList.add('footer');
-    footer.innerHTML = 'FOOT';
+   
 
     
 
     aboutContainer.appendChild(title)
-    aboutContainer.appendChild(mid)
-    mid.appendChild(midTopContainer)
-    midTopContainer.appendChild(midTopLeft)
-    midTopContainer.appendChild(midTopRight)
-    mid.appendChild(midBottomContainer)
-    midBottomContainer.appendChild(bottomContent)
-    aboutContainer.appendChild(footer)
+    aboutContainer.appendChild(aboutContentContainer)
+    aboutContentContainer.appendChild(aboutTopContainer)
+    aboutTopContainer.appendChild(aboutTopLeft)
+    aboutTopContainer.appendChild(aboutTopRight)
+    aboutContentContainer.appendChild(aboutBottomContainer)
+    aboutBottomContainer.appendChild(bottomContent)
+    
 
 
     return aboutContainer
